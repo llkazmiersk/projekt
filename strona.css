@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }  
+
+
+body {
+    font-family: Product Sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #146930; /* beżowy */
+    color: #ffffff; /* biały */
+}
+
+.navbar {
+    background-color: #146930; /* zielony */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #146930; /* pomarańczowy */
+}
+
+.jumbotron {
+    position: relative;
+    background: url('header-background.jpg') no-repeat center center;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 150px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.jumbotron .content {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron h1, .jumbotron p {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #ffffff; /* biały */
+    color: #146930;
+}
+
+footer p {
+    margin: 0;
+}
+
+#resultContainer {
+    padding: 50px 0;
+    padding: 50px 0;
+    background-color: #146930; /* zielony */
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.btn-primary {
+    background-color: #ffa500; /* pomarańczowy */
+    border-color: #ffa500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* szary */
+    border-color: #6c757d;
+}
